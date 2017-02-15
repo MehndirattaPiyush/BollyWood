@@ -37,5 +37,5 @@ public class Gametype extends AppCompatActivity {
         i.putExtra("gameType",str);
         startActivity(i);
     }
-    //on back pressed update online
+    //on back pressed update offline online
 }
