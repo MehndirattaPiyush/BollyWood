@@ -37,4 +37,5 @@ public class Gametype extends AppCompatActivity {
         i.putExtra("gameType",str);
         startActivity(i);
     }
+    //on back pressed
 }
