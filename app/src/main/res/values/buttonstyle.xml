@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="alphbabetButton">
+        <item name="android:layout_width">52dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="numberButton">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

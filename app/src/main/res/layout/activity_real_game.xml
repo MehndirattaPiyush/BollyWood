@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_real_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="40dp"
+    tools:context="com.example.prakshaljain.bollyholly.RealGame">
+
+    <TextView
+        android:text="TextView"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:id="@+id/MovieDisplay" />
+    <Button
+        android:text="1"
+        style="@style/numberButton"
+        android:id="@+id/b1"
+        android:onClick="onclick()"
+        android:layout_alignBaseline="@+id/b0"
+        android:layout_alignBottom="@+id/b0"
+        android:layout_toEndOf="@+id/b0" />
+
+    <Button
+        android:text="5"
+        style="@style/numberButton"
+        android:id="@+id/b5"
+        android:layout_alignBaseline="@+id/b4"
+        android:layout_alignBottom="@+id/b4"
+        android:layout_toEndOf="@+id/b4" />
+
+    <Button
+        android:text="6"
+        style="@style/numberButton"
+        android:id="@+id/b6"
+        android:layout_alignBaseline="@+id/b5"
+        android:layout_alignBottom="@+id/b5"
+        android:layout_toEndOf="@+id/b5" />
+
+    <Button
+        android:text="2"
+        style="@style/numberButton"
+        android:id="@+id/b2"
+        android:layout_alignBaseline="@+id/b1"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_toEndOf="@+id/b1" />
+
+    <Button
+        android:text="3"
+        style="@style/numberButton"
+        android:id="@+id/b3"
+        android:layout_alignBaseline="@+id/b2"
+        android:layout_alignBottom="@+id/b2"
+        android:layout_toEndOf="@+id/b2" />
+
+    <Button
+        android:text="4"
+        style="@style/numberButton"
+        android:id="@+id/b4"
+        android:layout_below="@+id/MovieDisplay"
+        android:layout_toEndOf="@+id/b3" />
+
+    <Button
+        android:text="7"
+        style="@style/numberButton"
+        android:id="@+id/b7"
+        android:layout_alignBaseline="@+id/b6"
+        android:layout_alignBottom="@+id/b6"
+        android:layout_toEndOf="@+id/b6" />
+
+    <Button
+        android:text="9"
+        style="@style/numberButton"
+        android:id="@+id/b9"
+        android:layout_alignBaseline="@+id/b8"
+        android:layout_alignBottom="@+id/b8"
+        android:layout_toEndOf="@+id/b8" />
+
+    <Button
+        android:text="8"
+        style="@style/numberButton"
+        android:id="@+id/b8"
+        android:layout_alignBaseline="@+id/b7"
+        android:layout_alignBottom="@+id/b7"
+        android:layout_toEndOf="@+id/b7" />
+
+    <Button
+        android:text="q"
+        style="@style/alphbabetButton"
+        android:layout_below="@+id/b0"
+        android:layout_alignParentStart="true"
+        android:id="@+id/q" />
+
+    <Button
+        android:text="r"
+        style="@style/alphbabetButton"
+        android:layout_below="@+id/b1"
+        android:layout_toEndOf="@+id/w"
+        android:id="@+id/r" />
+
+    <Button
+        android:text="t"
+        style="@style/alphbabetButton"
+        android:layout_below="@+id/b5"
+        android:layout_toEndOf="@+id/r"
+        android:id="@+id/t" />
+
+    <Button
+        android:text="y"
+        style="@style/alphbabetButton"
+        android:id="@+id/y"
+        android:layout_below="@+id/b3"
+        android:layout_toEndOf="@+id/t" />
+
+    <Button
+        android:text="p"
+        style="@style/alphbabetButton"
+        android:layout_below="@+id/b5"
+        android:layout_toEndOf="@+id/y"
+        android:id="@+id/p" />
+
+    <Button
+        android:text="w"
+        style="@style/alphbabetButton"
+        android:id="@+id/w"
+        android:layout_below="@+id/b0"
+        android:layout_toEndOf="@+id/q" />
+
+    <Button
+        android:text="s"
+        style="@style/alphbabetButton"
+        android:id="@+id/s"
+        android:layout_below="@+id/b5"
+        android:layout_toEndOf="@+id/p" />
+
+    <Button
+        android:text="f"
+        style="@style/alphbabetButton"
+        android:id="@+id/f"
+        android:layout_alignBaseline="@+id/d"
+        android:layout_alignBottom="@+id/d"
+        android:layout_toEndOf="@+id/d" />
+
+    <Button
+        android:text="d"
+        style="@style/alphbabetButton"
+        android:id="@+id/d"
+        android:layout_below="@+id/q"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="g"
+        style="@style/alphbabetButton"
+        android:layout_alignBottom="@+id/f"
+        android:layout_toEndOf="@+id/w"
+        android:id="@+id/g" />
+
+    <Button
+        android:text="h"
+        style="@style/alphbabetButton"
+        android:layout_below="@+id/y"
+        android:layout_toEndOf="@+id/g"
+        android:id="@+id/h" />
+
+    <Button
+        android:text="j"
+        style="@style/alphbabetButton"
+        android:id="@+id/j"
+        android:layout_alignBaseline="@+id/h"
+        android:layout_alignBottom="@+id/h"
+        android:layout_toEndOf="@+id/t" />
+
+    <Button
+        android:text="k"
+        style="@style/alphbabetButton"
+        android:id="@+id/k"
+        android:layout_below="@+id/p"
+        android:layout_toEndOf="@+id/y" />
+    <Button
+        style="@style/alphbabetButton"
+        android:text="l"
+        android:id="@+id/l"
+        android:layout_toEndOf="@id/k"
+        android:layout_below="@+id/s"
+        />
+    <Button
+        style="@style/alphbabetButton"
+        android:text="z"
+        android:id="@+id/z"
+        android:layout_below="@+id/d"
+        />
+    <Button
+        style="@style/alphbabetButton"
+        android:text="x"
+        android:id="@+id/x"
+        android:layout_toEndOf="@id/z"
+        android:layout_below="@+id/f"
+        />
+    <Button
+        style="@style/alphbabetButton"
+        android:text="c"
+        android:id="@+id/c"
+        android:layout_toEndOf="@id/x"
+        android:layout_below="@+id/g"
+        />
+    <Button
+        style="@style/alphbabetButton"
+        android:text="v"
+        android:id="@+id/v"
+        android:layout_toEndOf="@id/c"
+        android:layout_below="@+id/h"
+        />
+    <Button
+        style="@style/alphbabetButton"
+        android:text="b"
+        android:id="@+id/b"
+        android:layout_toEndOf="@id/v"
+        android:layout_below="@+id/j"
+        />
+    <Button
+        style="@style/alphbabetButton"
+        android:text="n"
+        android:id="@+id/n"
+        android:layout_toEndOf="@id/b"
+        android:layout_below="@+id/k"
+        />
+    <Button
+        style="@style/alphbabetButton"
+        android:text="m"
+        android:id="@+id/m"
+        android:layout_toEndOf="@id/n"
+        android:layout_below="@+id/l"
+        />
+
+    <Button
+        android:text="0"
+        style="@style/numberButton"
+        android:id="@+id/b0"
+        android:layout_below="@+id/MovieDisplay"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="HOLLYWOOD"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/gametype" />
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_get_movie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prakshaljain.bollyholly.GetMovie">
+
+    <TextView
+        android:text="Team A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="125dp"
+        android:textSize="40sp"
+        android:id="@+id/teamdisplay" />
+
+    <TextView
+        android:text="Challenge The Rivals"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teamdisplay"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView7" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/movietext"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moviedone"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
